@@ -68,7 +68,7 @@ function App() {
       {/* Header */}
       <div className="app-header">
         <h1 className="app-title">
-          <img src="/favicon.png" alt="Logo" className="app-logo me-2" />
+          <img src={process.env.PUBLIC_URL + '/favicon.png'} alt="Logo" className="app-logo me-2" />
           Duplicate Image Finder
         </h1>
         <p className="app-subtitle">Find and remove duplicate images from your folders</p>
@@ -114,7 +114,7 @@ function App() {
           <span>© 2025 Duplicate Image Finder</span>
           <span className="footer-divider">•</span>
           <a 
-            href="https://github.com/yourusername/duplicate-image-finder" 
+            href="https://github.com/yusuf-ravat" 
             className="footer-link"
             target="_blank"
             rel="noopener noreferrer"
@@ -125,7 +125,7 @@ function App() {
           <span className="footer-divider">•</span>
           <button 
             className="footer-link"
-            onClick={() => window.open('https://github.com/yourusername/duplicate-image-finder/wiki', '_blank')}
+            onClick={() => window.open('https://github.com/yusuf-ravat/duplicate-image-finder', '_blank')}
           >
             <i className="bi bi-question-circle me-1"></i>
             Help
