@@ -35,8 +35,8 @@ Try it out: [https://yusuf-ravat.github.io/Duplicate-Image-Finder/](https://yusu
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/duplicate-image-finder.git
-cd duplicate-image-finder
+git clone https://github.com/yusuf-ravat/Duplicate-Image-Finder.git
+cd Duplicate-Image-Finder
 ```
 
 2. Install dependencies:
