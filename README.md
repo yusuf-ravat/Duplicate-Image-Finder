@@ -2,6 +2,10 @@
 
 A modern web application that helps you find and remove duplicate images from your folders. Built with React, TypeScript, and the File System Access API.
 
+## Live Demo
+
+Try it out: [https://yusuf-ravat.github.io/Duplicate-Image-Finder/](https://yusuf-ravat.github.io/Duplicate-Image-Finder/)
+
 ## Features
 
 - 🔍 Find duplicate images within a single folder
