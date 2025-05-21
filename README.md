@@ -1,46 +1,80 @@
-# Getting Started with Create React App
+# Duplicate Image Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern web application that helps you find and remove duplicate images from your folders. Built with React, TypeScript, and the File System Access API.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- 🔍 Find duplicate images within a single folder
+- 🔄 Compare images between two different folders
+- 🖼️ Visual comparison of duplicate images
+- 📊 Similarity percentage display
+- 🗑️ Easy deletion of duplicate files
+- 🔒 Privacy-focused (all processing done locally)
+- 📱 Responsive design for all devices
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React
+- TypeScript
+- File System Access API
+- Bootstrap 5
+- Bootstrap Icons
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (v14 or higher)
+- npm or yarn
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/duplicate-image-finder.git
+cd duplicate-image-finder
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Start the development server:
+```bash
+npm start
+# or
+yarn start
+```
 
-### `npm run eject`
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Usage
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Click "Select Folder 1" to choose the folder you want to scan
+2. Optionally, click "Select Folder 2" to compare with another folder
+3. Click "Find Duplicates" to start the scan
+4. Review the results and delete any duplicate images as needed
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Privacy
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- All image processing is done locally in your browser
+- No images are uploaded to any server
+- No internet connection required after initial load
+- You can revoke folder access anytime from your browser settings
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Built with [Create React App](https://create-react-app.dev/)
+- Icons from [Bootstrap Icons](https://icons.getbootstrap.com/)
+- Styling with [Bootstrap](https://getbootstrap.com/)
