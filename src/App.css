@@ -722,37 +722,3 @@ body::before {
     transform: scale(1);
   }
 }
-
-.permission-message {
-  text-align: left;
-  width: 100%;
-  max-width: 100%;
-  margin: 1rem 0;
-}
-
-.permission-list {
-  list-style: none;
-  padding: 0;
-  margin: 1rem 0;
-}
-
-.permission-list li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 0.75rem;
-  color: var(--text-secondary);
-  font-size: 1rem;
-}
-
-.permission-list li i {
-  font-size: 1.1rem;
-  margin-right: 0.5rem;
-}
-
-.permission-actions {
-  display: flex;
-  gap: 1rem;
-  margin-top: 1.5rem;
-  width: 100%;
-  justify-content: center;
-}
