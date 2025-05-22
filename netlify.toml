@@ -1,0 +1,13 @@
+[build]
+  base = "duplicate-image-finder"
+  command = "npm install && npm run build"
+  publish = "duplicate-image-finder/build"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_VERSION = "9"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200 
