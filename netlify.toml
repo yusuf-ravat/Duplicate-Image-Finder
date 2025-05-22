@@ -1,8 +1,7 @@
 [build]
   base = "duplicate-image-finder"
   command = "npm install && npm run build"
-  publish = "duplicate-image-finder/build"
-  package = "duplicate-image-finder"
+  publish = "build"
 
 [build.environment]
   NODE_VERSION = "18"
