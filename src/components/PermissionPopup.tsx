@@ -2,10 +2,10 @@ import React from 'react';
 
 interface PermissionPopupProps {
   onAccept: () => void;
-  onDecline: () => void;
+  // onDecline: () => void;
 }
 
-const PermissionPopup: React.FC<PermissionPopupProps> = ({ onAccept, onDecline }) => {
+const PermissionPopup: React.FC<PermissionPopupProps> = ({ onAccept }) => {
   return (
     <div className="permission-overlay">
       <div className="permission-popup">
@@ -46,10 +46,10 @@ const PermissionPopup: React.FC<PermissionPopupProps> = ({ onAccept, onDecline }
               <i className="bi bi-check-circle me-2"></i>
               Grant Permission
             </button>
-            <button className="btn btn-outline-secondary" onClick={onDecline}>
+            {/* <button className="btn btn-outline-secondary" onClick={onDecline}>
               <i className="bi bi-x-circle me-2"></i>
               Decline
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

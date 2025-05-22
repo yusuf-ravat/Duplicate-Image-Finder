@@ -49,11 +49,11 @@ function App() {
     setShowPermissionPopup(false);
   };
 
-  const handleDeclinePermission = () => {
-    setShowPermissionPopup(false);
-    // You might want to show a message that the app won't work without permission
-    alert('This app requires permission to access files to find duplicate images.');
-  };
+  // const handleDeclinePermission = () => {
+  //   setShowPermissionPopup(false);
+  //   // You might want to show a message that the app won't work without permission
+  //   alert('This app requires permission to access files to find duplicate images.');
+  // };
 
   return (
     <div className="container py-4">
@@ -61,7 +61,7 @@ function App() {
       {showPermissionPopup && (
         <PermissionPopup
           onAccept={handleAcceptPermission}
-          onDecline={handleDeclinePermission}
+          // onDecline={handleDeclinePermission}
         />
       )}
 
