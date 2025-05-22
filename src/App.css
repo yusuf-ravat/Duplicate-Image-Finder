@@ -634,7 +634,7 @@ body::before {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
   width: 90%;
   max-width: 500px;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
   animation: popupFadeIn 0.3s ease-out;
 }
@@ -643,13 +643,13 @@ body::before {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .permission-icon {
   font-size: 3rem;
   color: var(--primary-color);
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 .permission-icon i {
@@ -669,12 +669,39 @@ body::before {
   margin: 0;
 }
 
+.permission-message {
+  text-align: left;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.permission-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.permission-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.permission-list li i {
+  font-size: 1.1rem;
+  margin-right: 0.5rem;
+  flex-shrink: 0;
+}
+
 .permission-actions {
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
-  flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
 }
 
 @media (max-width: 576px) {
