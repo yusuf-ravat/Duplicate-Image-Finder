@@ -4,7 +4,7 @@ A modern web application that helps you find and remove duplicate images from yo
 
 ## Live Demo
 
-Try it out: [https://yusuf-ravat.github.io/Duplicate-Image-Finder/](https://yusuf-ravat.github.io/Duplicate-Image-Finder/)
+Try it out: [https://yusuf-ravat.github.io/Duplicate-Image-Finder/](https://duplicate-image-finder.netlify.app/)
 
 ## Features
 
